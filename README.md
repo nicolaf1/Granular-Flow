@@ -1,1 +1,1 @@
-A small package to solve an hyperbolic system for granular flow
+A small package to solve an hyperbolic system for granular flow. This package contains a library that was created starting from the numerical solution of a hyperbolic system of partial differential equations, which includes terms for material erosion-deposition and material friction.
