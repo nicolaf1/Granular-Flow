@@ -3,7 +3,7 @@ import ctypes
 from numpy.ctypeslib import ndpointer
 
 # Carica la libreria
-lib = ctypes.CDLL('./libgranular.so')
+lib = ctypes.CDLL('./lib/libgranular.so')
 
 # Imposta l'interfaccia della funzione C
 lib.step_forward.argtypes = [
