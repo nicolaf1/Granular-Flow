@@ -5,7 +5,7 @@ import matplotlib.animation as animation
 from numpy.ctypeslib import ndpointer
 
 # Carica la libreria C
-lib = ctypes.CDLL('./libgranular.so')
+lib = ctypes.CDLL('./lib/libgranular.so')
 
 # Definizione della funzione C
 lib.step_forward.argtypes = [
