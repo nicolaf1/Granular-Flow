@@ -1,1 +1,4 @@
+numpy>=2.2.5
+ctypes>=1.1.0
+matplotlib>=3.10.1
 
